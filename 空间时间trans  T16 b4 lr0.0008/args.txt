@@ -1,0 +1,2 @@
+Namespace(T=16, device='cuda', b=4, epochs=400, j=4, data_dir='D:/datasets/DVS128Gesture', out_dir='D:/output/H1', resume='', amp=False, cupy=False, opt='adam', momentum=0.9, lr=0.0008, channels=64)
+D:\py\bugtrain\logs\time transformer.py
