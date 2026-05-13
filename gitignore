@@ -1,0 +1,86 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+*.pyd
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
+
+# PyTorch / training artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# TensorBoard
+runs/
+tensorboard/
+events.out.tfevents.*
+
+# Experiment outputs
+output/
+outputs/
+out/
+logs/
+log/
+checkpoints/
+results/
+metrics.xlsx
+args.txt
+
+# Dataset folders (local only)
+data/
+datasets/
+DVS128Gesture/
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Temporary files
+*.tmp
+*.temp
+
+# Optional local experiment folders observed in the current workspace
+# Uncomment if these directories are copied into the repo root and you do not want to track them
+# 1层 T16 b4 lr0.0005/
+# 1层 T16 b4 lr0.0018/
+# 5层trans T16 b4 lr0.0008/
+# 10层trans T16 b4 lr0.0008/
+# 93.40 交换上下神经元/
+# 94.01交换上采样神经元/
+# 95.49 交换下来样神经元lr0.0009/
+# CIFAR10/
+# MNIST T4_b4_adam_lr0.0009_c64_unet/
+# tranformer1+U/
+# unet/
+# 空间时间trans T16 b4 lr0.0008/
+# 空间时间通道 T20 b4 lr0.0008 NO1/
